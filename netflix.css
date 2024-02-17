@@ -1,0 +1,184 @@
+*{margin: 0;
+    padding: 0;
+    font-family: Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+}
+nav{display: flex;
+    top: 0;
+    align-content: center;
+    max-width: 70vw;
+    justify-content: space-between;
+    height: 15vh;
+    margin: auto;
+    align-items: center;
+}
+body{
+    background-color: black;
+}
+.main{
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/df6621a3-890c-4ca0-b698-90bd5152f3d1/20a59be7-7062-4991-bca0-805e9a7f2716/IN-en-20240107-trifectadaily-perspective_alpha_website_medium.jpg);
+    background-repeat: no-repeat;
+    width:100%;
+    height: 110vh;
+    position: relative;
+    object-fit: cover;
+    object-position: center center;
+    background-size: max(1000px,100vw);
+}
+.main .box{
+    width: 100%;
+    height: 110vh;
+    position: absolute;
+    top: 0;
+    opacity: 0.74;
+    background-color: black;
+
+}
+ .bt{position: relative;
+    z-index: 1;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    top: 8%;
+    row-gap:1.3vw;
+    padding: 10%;
+    z-index: 1 ;
+}
+.flex1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+} 
+.flex2{
+    display: flex;
+    gap: 90px;
+    align-items: center;
+    justify-content: center;
+} 
+.flex3{
+    display: flex;
+    margin-left: -200px;
+    width: 30vw;
+    flex-direction: column;
+    align-items: start;
+} 
+.flex4{
+    display: flex;
+    margin-left: 100px;
+    width: 30vw;
+    flex-direction: column;
+    align-items: start;
+} 
+.flex6{
+    display: flex;
+    margin-left: 100px;
+    width: 30vw;
+    margin-top: 20vh;
+    flex-direction: column;
+    align-items: start;
+} 
+.flex5{
+    display: flex;
+    margin-left: 550px;
+    width: 35vw;
+    flex-direction: column;
+    align-items:center;
+} 
+.img1{
+    width: 11vw;
+    position: relative;
+    z-index: 1;
+}
+.img2{
+    width: 38vw;
+    position: absolute;
+    z-index: 2;
+}
+.img6{
+    width: 38vw;
+    position: absolute;
+    z-index: 2;
+}
+.img7{
+    width: 32vw;
+    position: absolute;
+    z-index: 2;
+    top: -7vh;
+}
+.img3{
+    width: 36vw;
+    position: absolute;
+    z-index: 2;
+}
+.img4{
+    width: 3.3vw;
+    position: relative;
+    z-index: 2;
+    margin: 9px;
+}
+.img5{
+    width: 3vw;
+    position: relative;
+    z-index: 3;
+    left: 23vw;
+    margin: 9px;
+    top: 38vh;
+}
+.h1{
+    color: white;
+    font-size: 46px;
+    font-weight: 900;
+}
+.seprate{
+    height: 1.5vh;
+    margin-bottom: 10vh;
+    width: 100vw;
+    background-color: grey;
+}
+.v1{
+    position: relative;
+    left: 5vw;
+    width: 27.7vw;
+    top: 13.4vh;
+    z-index: 1;
+}
+.v2{
+    position: relative;
+    left: 7vw;
+    width: 23vw;
+    top: 7vh;
+    z-index: 1;
+}
+.st{
+    position: relative;
+    border:1px grey solid ;
+    background-color: black;
+    border-radius: 12px;
+    top: 57vh;
+    left: 108px;
+    width: 20vw;
+    height: 14vh;
+    z-index: 3;
+}
+.st1{
+    position: relative;
+    border:1px
+     grey solid ;
+    background-color: black;
+    border-radius: 12px;
+    top: 57vh;
+    left: 108px;
+    width: 20vw;
+    height: 14vh;
+    z-index: 3;
+}
+.d{
+    color: white;
+    z-index: 4;
+    top: 47vh;
+    left: 13vw;
+    position: relative;
+    font-size: 16px;
+}
